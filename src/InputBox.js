@@ -7,6 +7,7 @@ export default function InputBox() {
     const handleSubmit = (e)=>{
         e.preventDefault();
         dispatch({type:'ADD_POST',content:value});
+        console.log("Abhishek branch");
         setValue('');
     }
     return (
